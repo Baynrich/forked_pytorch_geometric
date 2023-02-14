@@ -66,7 +66,7 @@ dev_requires = test_requires + [
 ]
 
 setup(
-    name='torch_geometric',
+    name='forked_torch_geometric',
     version=__version__,
     description='Graph Neural Network Library for PyTorch',
     author='Matthias Fey',
