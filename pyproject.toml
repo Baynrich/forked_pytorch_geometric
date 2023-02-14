@@ -1,5 +1,5 @@
 [project]
-name="torch_geometric"
+name="forked_torch_geometric"
 version="2.3.0"
 readme="README.md"
 classifiers=[
