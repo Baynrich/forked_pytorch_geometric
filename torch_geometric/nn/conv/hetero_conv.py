@@ -62,6 +62,7 @@ class HeteroConv(Module):
                 f"edge type. This may lead to unexpected behavior.")
 
         self.convs = ModuleDict({'__'.join(k): v for k, v in convs.items()})
+        warnings.warn(f"convs are {self.convs}")
         self.aggr = aggr
 
     def reset_parameters(self):
